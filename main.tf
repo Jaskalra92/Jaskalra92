@@ -16,8 +16,8 @@ terraform {
 }
 
 provider "snowflake" {
-    account = "SUNLIFE-CORPDPEP"
-    username = "hol_user_24"
+    snowflake_account = "SUNLIFE-CORPDPEP"
+    snowflake_username = "hol_user_24"
 }
 
 resource "snowflake_database" "demo_db_jk" {
