@@ -20,6 +20,7 @@ provider "snowflake" {
 
 resource "snowflake_database" "demo_db_jk" {
   account = "SUNLIFE-CORPDPEP"
+  username = "hol_user_24"
   name    = "JASMINE_KALRA_DEMO_DB"
   comment = "Database for Snowflake Terraform demo"
 }
